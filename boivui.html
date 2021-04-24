@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Giới thiệu</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<table border="0" width="900" align="center">
+			<tr height="120" background="img/banner.jpg">
+				<td colspan="3"></td>
+			</tr>
+			<tr>
+				<td width="20%" valign="top">
+					<h3>Nội dung chính</h3>
+					<ul>
+						<li><a href="index.html">Giới thiệu</a></li>
+						<li><a href="hinhanh.html">Hình ảnh cá nhân</a></li>
+						<li><a href="lienhe.html">Liên hệ</a></li>
+					</ul>
+					<h3>Góc thư giản</h3>
+					<ul>
+						<li><a href="trangtho.html">Trang thơ chọn lọc</a></li>
+						<li><a href="boivui.html">Bói vui các kiểu</a></li>
+						<li><a href="trochoi.html">Siêu thị cười</a></li>
+						<li><a href="vuicuoi.html">Trò chơi$nhạc flash</a></li>
+					</ul>
+					<h3>Nội dung chính</h3>
+					<ul>
+						<li><a href="http://regis.agu.edu.vn">Đăng ký học phần</a></li>
+						<li><a href="http://mail.agu.edu.vn">Mail AGU</a></li>
+						<li><a href="http://enews.agu.edu.vn">Báo Sinh viên điện tử</a></li>
+						<li><a href="www.google.com.vn">Tìm kiếm gg</a></li>
+					</ul>
+				</td>
+				<td width="60%" valign="top">
+				<script type="text/javascript" src="scripts/boivui.js"></script>
+
+					<h3>Bói tình yêu</h3>
+					<form name="box" action="javascript:BoiTinhYeu(this.txtTenBan.value, this.txtTenNguoiAy.value);">
+						<table width="100%" border="0">
+							<tr>
+								<td>Tên bạn:</td>
+								<td><input type="text" id="txtTenBan" name="txtTenBan" /></td>
+								<td>Check vào nếu bạn là nữ <input type="checkbox" id="isFemale" name="isFemale" value="on" /></td>
+							</tr>
+							<tr>
+								<td>Tên người ấy:</td>
+								<td colspan="2"><input type="text" id="txtTenNguoiAy" name="txtTenNguoiAy" /></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td colspan="2">
+									<input type="submit" value="Xem Bói" />
+									<input type="reset" onclick="javascript:window.location='boivui.html'" value="Xem Lại" />
+								</td>
+							</tr>
+						</table>
+					</form>
+					<div id="KetQua">
+						<noscript>Tuy nhiên trình duyệt của thí chủ không cho phép chạy JavaScript, nên ta không thể bói cho thí chủ được. Thông cảm cho ta nhé! Đổi trình duyệt mới đi rồi quay lại đây. Nam mô a di đà phật...</noscript>
+					</div>
+				</td>
+				
+				<td width="20%" valign="top">
+				<h3>Quãng cáo</h3>
+				<img src="img/quangcao1.jpg"width="170">
+				<img src="img/quangcao2.jpg"width="170">
+				</td>
+			</tr>
+			<tr height="50" bgcolor="dodgerblue">
+				<td colspan="3" align="center">Bản quyền &copy; 2021 bởi Lâm Đạt. Email:<a href="mailto:phatdatlamlxagrpo@gmail.com">phatdatlamlxagrpo@gmail.com</a> </td>
+			</tr>
+		</table>
+	</body>
+</html>
